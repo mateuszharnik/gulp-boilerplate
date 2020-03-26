@@ -1,0 +1,23 @@
+doctype html
+html(lang="pl" dir="ltr")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="author" content="Mateusz Harnik")
+    meta(name="keywords" content="")
+    meta(name="description" content="")
+    meta(name="theme-color" content="#2c2c2c")
+
+    title Website
+
+    include components/links.pug
+  body
+    
+    <!-- build:libs -->
+    script(type="text/javascript" src="bundle/libs.js")
+    <!-- endbuild -->
+    
+    <!-- build:main -->
+    script(type="text/javascript" src="bundle/main.js")
+    <!-- endbuild -->

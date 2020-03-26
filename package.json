@@ -1,0 +1,47 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mateusz Harnik",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx gulp del && npx gulp build",
+    "del": "npx gulp del",
+    "serve": "npx gulp",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@types/jest": "^24.0.13",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "eslint": "5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-changed": "^4.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jest": "^24.8.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.32.2",
+    "webpack-stream": "^5.2.1"
+  }
+}
